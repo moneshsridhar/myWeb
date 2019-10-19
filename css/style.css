@@ -1,0 +1,23 @@
+div
+{
+	padding: 10%;
+	padding-top: 12%;
+	padding-bottom: 12%;
+}
+div {
+  color: #1c1c17;
+  font-size: xx-large;
+  text-transform: uppercase;
+  letter-spacing: 6px;
+  line-height: 100%;
+  width: 330px;
+  height: 65px;
+  border-radius: 20px;
+  background-color: lightgrey;
+  animation-name: blink;
+  animation-duration: 10s;
+}
+@keyframes blink {
+  from {background-color: white;}
+  to {background-color: lightgrey;}
+}
