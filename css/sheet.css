@@ -20,10 +20,6 @@
 	color: grey;
 	font-size: large;
 }
-.struct
-{
-	background-color: lightcyan;
-}
 .img
 {
 	height: 20%;
@@ -78,4 +74,40 @@
 {
 	font-variant: small-caps;
 	font-size: 20px;
+}
+p
+{
+  width: 500px;
+  height: 150px;
+  background: white;
+  -webkit-transition: width 2s, height 4s; /* For Safari 3.1 to 6.0 */
+  transition: width 3s, height 4s;
+}
+p:hover 
+{
+  width: 900px;
+  height: 60px;
+  background: #F4FA58;
+}
+footer
+{
+	width: 100%;
+	height: 50%;
+	border-color: black;
+	border-radius: 2px;
+	background-color: pink;
+}
+.f1
+{
+	font-variant: small-caps;
+	font-weight: bold;
+	padding-top: 40px; 
+}
+.ff1
+{
+	font-family: monospace;
+	font-variant: normal;
+	font-size: 13px;
+	font-weight: normal;
+	color: blue;
 }
