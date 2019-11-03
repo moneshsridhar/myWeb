@@ -20,6 +20,24 @@
 	color: grey;
 	font-size: large;
 }
+a
+{
+	text-decoration: none;
+	color: grey;
+}
+a:hover
+{
+	color: lightblue;
+}
+a:active
+{
+	box-shadow: transparent;
+	color: orange;
+}
+.struct
+{
+	background-color: #FEF9E7;
+}
 .img
 {
 	height: 20%;
@@ -38,16 +56,30 @@
 	font-size: 65px;
 	font-family: sans-serif;
 	padding-right: 60%;
-	padding-top: 7%;
+	padding-top: 6%;
 }
 .t1
 {
 	font-size: 30px;
 	font-family: monospace;
 }
+.t2
+{
+	color: #000;
+	font-size: 25px;
+	font-weight: bolder;
+	padding-left: 4%;
+	font-family: Calibri;
+}
 .circle
 {
-	padding-left: 23%;
+	padding-left: 24%;
+}
+button:hover
+{
+	background-color: #641E16;
+	color: white;
+	border-color: cyan;
 }
 .circle_pink
 {
@@ -78,24 +110,31 @@
 p
 {
   width: 500px;
-  height: 150px;
-  background: white;
-  -webkit-transition: width 2s, height 4s; /* For Safari 3.1 to 6.0 */
+  height: 100px;
+  background: #FEF9E7;
+  -webkit-transition: width 2s, height 4s;
   transition: width 3s, height 4s;
 }
 p:hover 
 {
   width: 900px;
   height: 60px;
-  background: #F4FA58;
+  font-size: 15px;
+  font-weight: bold;
+  font-family: monospace;
+  color: black;
+  background-color: white;
+  box-shadow: inherit;
+  border-radius: 10px;
 }
+
 footer
 {
 	width: 100%;
 	height: 50%;
 	border-color: black;
 	border-radius: 2px;
-	background-color: pink;
+	background-color: #D0ECE7;
 }
 .f1
 {
