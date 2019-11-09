@@ -150,3 +150,25 @@ footer
 	font-weight: normal;
 	color: blue;
 }
+div.con
+{
+	font-size: 45px;
+	color: darkblue;
+	font-family: Times New Roman;
+	text-transform: uppercase;
+	border: solid;
+	border-top-color: white;
+	border-left-color: white;
+	border-right-color: white;
+	border-bottom-color: black;
+}
+.ind
+{
+	text-align: center;
+	color: lime;
+	border-radius: 20px;
+	background-color: black;
+	font-family: monospace;
+	font-variant: small-caps;
+	
+}
