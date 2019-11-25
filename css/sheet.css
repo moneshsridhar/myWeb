@@ -107,7 +107,7 @@ button:hover
 	font-variant: small-caps;
 	font-size: 20px;
 }
-p
+p.hover
 {
   width: 500px;
   height: 100px;
@@ -115,7 +115,7 @@ p
   -webkit-transition: width 2s, height 4s;
   transition: width 3s, height 4s;
 }
-p:hover 
+p.hover:hover 
 {
   width: 900px;
   height: 60px;
@@ -171,4 +171,77 @@ div.con
 	font-family: monospace;
 	font-variant: small-caps;
 	
+}
+div.pright
+{
+	padding-left: 90%;
+}
+div.rhead
+{
+	padding-left: 25px;
+	color: blue;
+	font-variant: small-caps;
+	font-size: 26px;
+}
+div.shead
+{
+	padding-left: 25px;
+}
+.hr
+{
+	font-weight: bold;
+	font-size: 20px;
+}
+.scaps
+{
+	font-size: 18px;
+	font-variant: small-caps;
+}
+.cont
+{
+	font-size: 15px;
+	width: 450px;
+}
+.field
+{
+	font-size: 20px;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+.in
+{
+	display: inline;
+	position: absolute;
+	margin-top: 15px;
+	margin-left: 20px;
+	font-family: sans-serif;
+}
+.inin
+{
+	font-size: 15px;
+	color: grey;
+}
+.side
+{
+	height: 100%;
+	width: 50%;
+	position: fixed;
+	box-sizing: border-box;
+	z-index: 1;
+	overflow-x: hidden;
+	padding-top: 20px;
+
+}
+.left
+{
+	left: 0;
+	width: 48%;
+	background-color: silver;
+}
+.right
+{
+	right: 0;
+	height: 10%;
+	border-style: solid;
+	background-color: white;
 }
